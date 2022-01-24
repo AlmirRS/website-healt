@@ -40,5 +40,120 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 15px;
     line-height: 0;
 }    
+#topbar .contact-info i:first-child{
+    margin-left: 0;    
+}
+#topbar .social-links a{
+    color: #437099;
+    padding-left: 15px;
+    display: inline-block;  
+    line-height: 1px;
+    transition: 0.3s;
+}
+#topbar .social-links a:hover{
+    color: #1977cc;
+}
+#topbar .social-links a:first-child{
+    border-left: 0;
+}
+
+/* HEADER */
+#header{
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 15px 0;
+    top: 40px;
+    box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);    
+}
+#header.header-scrolled{
+    top: 0;
+}
+#header .logo{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-family: "Popping", sans-serif;
+}
+#header .logo a{
+    color: #2c4964;
+}
+#header .logo img{
+    max-height: 40px;
+} 
+
+/* NAVBAR */
+.navbar{
+    padding: 0;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar li{
+    position: relative;
+}
+.navbar > ul > li{
+    position: relative;
+    white-space: nowrap;
+    padding: 8px 0 8px 20px;
+}
+.navbar a, .navbar a:focus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #2c4964;
+    white-space: nowrap;
+    transition: 0.3s;
+    border-bottom: 2px solid #fff;
+    padding: 5px 2px ;
+}
+.navbar a i, .navbar a:focus i{
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+/* TUTORIAL */
+.linkCerto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-left: 1px solid #3fbbc9 ;
+    border-top: 1px solid #3fbbc8 ;
+    width: 40vh;
+    margin: 150px auto;
+    background: linear-gradient(#3fbbc0, #3291e6);
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+}
+.linkCerto h4{
+    transition: all 1s;
+    cursor: pointer;
+}
+.linkCerto h4:hover{
+    color: #fff;    
+    padding: 5px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);       
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
 
 
