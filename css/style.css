@@ -120,6 +120,71 @@ h1, h2, h3, h4, h5, h6{
     line-height: 0;
     margin-left: 5px;
 }
+.navbar a:hover, .navbar .active, .navbar:focus, .navbar li:hover > a{
+    color: #1977cc;
+    border-color: #1977cc;
+}
+/* APPOINTMENT BUTTON */
+.appointment-btn{
+    margin-left: 25px;
+    background:#1977cc;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
