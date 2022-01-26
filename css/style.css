@@ -103,6 +103,7 @@ h1, h2, h3, h4, h5, h6{
     position: relative;
     white-space: nowrap;
     padding: 8px 0 8px 20px;
+    border-bottom: 2px solid #FFF;
 }
 .navbar a, .navbar a:focus{
     display: flex;
@@ -112,15 +113,15 @@ h1, h2, h3, h4, h5, h6{
     color: #2c4964;
     white-space: nowrap;
     transition: 0.3s;
-    border-bottom: 2px solid #fff;
-    padding: 5px 2px ;
+    border-bottom: 2px solid #FFF;
+    padding: 0px 5px ;
 }
 .navbar a i, .navbar a:focus i{
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar:focus, .navbar li:hover > a{
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a{
     color: #1977cc;
     border-color: #1977cc;
 }
@@ -131,7 +132,50 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     border-radius: 50px;
     padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
 } 
+.appointment-btn:hover{
+    background: #3fbbc0;
+    color: #fff;    
+}
+
+@media (max-width: 768px){
+    .appointment-btn{
+        margin: 0 15px 0 0;
+        padding: 6px 18px;
+    }
+}
+
+/* Mobile navegação */
+.mobile-nav-toggle{
+    color: #2c4964;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
+}
+.mobile-nav-toggle.bi-x{
+    color: #fff;
+}
+@media(max-width: 991px){
+    .mobile-nav-toggle{
+        display: none;
+    }
+    .navbar ul{
+        display: none;
+    }   
+}    
+.navbar-mobile{
+    
+}
+
+
+
+
 
 
 
