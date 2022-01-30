@@ -383,6 +383,38 @@ h1, h2, h3, h4, h5, h6{
 .featured-services .icon-box:hover .icon i{
     color: #fff;
 }
+/* ABOUT */
+.about .icon-boxes h4{
+    font-size: 18px;
+    color: #4b7dab;
+    margin-bottom: 15px;
+}
+.about .icon-boxes h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c4964;
+    margin-bottom: 15px;
+}
+.about .icon-boxes{
+    margin-top: 40px;
+}
+.about .icon-boxes .icon{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #8dc2f1;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.about .icon-boxes .icon i{
+    color: #1977cc;
+}    
+
+
+
 
 
 
