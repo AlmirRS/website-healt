@@ -452,7 +452,7 @@ h1, h2, h3, h4, h5, h6{
     display: block;
     position: absolute; 
     left: calc(50% - 47px);
-    top: calc(50% - 47%); 
+    top: calc(50% - 47px); 
     overflow: hidden;
 }
 .about .play-btn::after{
@@ -481,8 +481,47 @@ h1, h2, h3, h4, h5, h6{
     left: -15%;
     background: rgba(198, 16, 0, 0);
 }
-
-
+.about .play-btn:hover::after{
+    border-left: 15px solid #1977cc;
+    transform: scale(20);
+}
+.about .play-btn:hover::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 200;
+    -webkit-animation: none;
+    animation: none;
+    border-radius: 0;
+}
+@-webkit-keyframes pulsate-btn{
+    0%{
+        transform: scale(0.6, 0.6);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1, 1);
+        opacity: 0;
+    }
+}
+@keyframes pulsate-btn{
+    0%{
+        transform: scale(0.6, 0.6);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1, 1);
+        opacity: 0;
+    }
+}
 
 
 
