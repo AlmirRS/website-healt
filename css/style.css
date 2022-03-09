@@ -602,6 +602,36 @@ h1, h2, h3, h4, h5, h6{
     transition: all 0.3s ease-in-out 0s;
     transform: translateZ(-1px);
 }
+.services .icon-box h4{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.services .icon-box h4 a{
+    color: #2c4964 ;
+}
+.services .icon-box p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.services .icon-box:hover{
+    background: #3fbbc0;
+    background-color: #3fbbc0;
+}
+.services .icon-box:hover .icon{
+    background: #fff;
+}
+.services .icon-box:hover .icon i{
+    background: #1977cc;
+}
+.services .icon-box:hover .icon::before{
+    background: #3291e6;
+}
+.services .icon-box:hover h4 a, .services .icon-box:hover p{
+    color: #fff;
+}
+
 
 
 
